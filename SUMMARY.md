@@ -8,14 +8,14 @@
 
 ## 核心功能
 
-- [管理员](managers.md)
-- [收款人](payees.md)
-- [数字支票](cheques.md)
-- [白名单](whitelist.md)
+- [管理员 (Manager)](managers.md)
+- [收款人 (Payee)](payees.md)
+- [数字支票 (Cheque)](cheques.md)
+- [白名单 (Whitelist)](whitelist.md)
 
 ## 收益
 
-- [奖励](rewards.md)
+- [奖励 (Rewards)](rewards.md)
 
 ## 开发者
 

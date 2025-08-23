@@ -8,7 +8,7 @@ Underscore 并非消费级应用——它是驱动下一代金融应用的底层
 
 将 Underscore 想象成 DeFi 领域的 AWS——但完全非托管。正如数百万用户使用 Netflix 却不知晓亚马逊的服务器，未来数百万用户将使用基于 Underscore 基础设施的金融应用。关键区别在于：用户始终掌控自己的资金。复杂性隐藏在底层，用户享受无缝体验。
 
-Underscore 提供核心组件——[用户钱包](user-wallet.md)、用于委托的 [Manager（管理员）](managers.md)、用于定期支付的 [Payee（收款人）](payees.md)、用于一次性转账的 [数字支票](cheques.md)，以及用于可信地址的 [白名单](whitelist.md)——开发者可将这些组件组合，创建强大的金融应用。
+Underscore 提供核心组件——[用户钱包](user-wallet.md)、用于委托的 [管理员](managers.md)、用于定期支付的 [收款人](payees.md)、用于一次性转账的 [数字支票](cheques.md)，以及用于可信地址的 [白名单](whitelist.md)——开发者可将这些组件组合，创建强大的金融应用。
 
 ## Underscore 生态系统
 
@@ -63,26 +63,26 @@ Underscore 提供核心组件——[用户钱包](user-wallet.md)、用于委托
 - **一键躺赚** 赚取收益
 - **以优惠汇率** 兑换资产
 - **抵押资产** 借款
-- **智能理财管家** 管理您的整个投资组合策略
+- **智能理财管家** 管理你的整个投资组合策略
 - **即时提取** 至个人钱包
 
 ### Underscore 如何驱动每个功能
 
 **智能理财管家（核心黑科技）**
 
-- Hightop 的 AI 配置为 Underscore [Manager](managers.md)
-- 目前通过在 Aave、Morpho、Euler、Compound、Fluid 之间重新平衡来优化收益
+- Hightop 的 AI 配置为 Underscore [管理员 (Manager)](managers.md)
+- 目前通过在 Aave、Morpho、Euler、Compound、Fluid 之间再平衡来优化收益
 - 即将推出：执行复杂 DeFi 策略、管理债务头寸并捕捉套利机会
 - 在用户定义的限制内运行（例如："仅操作稳定币"、"将 20% 的资产保持为 ETH"）
 - 根据市场条件和用户目标调整策略
-- 就像拥有一位华尔街量化专家 24/7 为您的个人投资组合工作
+- 就像拥有一位华尔街量化专家 24/7 为你的个人投资组合工作
 - 睡觉也在赚钱，醒来就是惊喜
 
 **收益生成**
 
 - Hightop 使用 Underscore 的乐高集成接入 Morpho、Moonwell、Aave 等收益协议
 - 用户看到"USDC 8.5% 年化收益率"——Underscore 负责协议路由
-- 其 AI Manager 自动在协议间重新平衡以优化收益
+- 其 AI Manager 自动在协议间再平衡以优化收益
 
 **资产兑换**
 
@@ -133,7 +133,7 @@ Underscore 的支付基础设施使其成为下一代支付应用的理想选择
 通过以下功能革新国际汇款：
 
 - **[数字支票](cheques.md)** 提供安全、可撤销的转账，内置欺诈保护
-- **[Payee](payees.md)** 支持设置支出限额的定期家庭汇款
+- **[收款人](payees.md)** 支持设置支出限额的定期家庭汇款
 - **即时结算** 通过稳定币实现，资金在等待提取期间赚取收益
 - **拉取支付** 让收款人在汇率有利时提取资金
 
@@ -141,7 +141,7 @@ Underscore 的支付基础设施使其成为下一代支付应用的理想选择
 
 革新企业支付：
 
-- **自动开票**：通过 [Payee](payees.md) 支持净 30/60/90 天账期
+- **自动开票**：通过 [收款人](payees.md) 支持净 30/60/90 天账期
 - **托管式功能**：使用 [数字支票](cheques.md) 配合审批流程
 - **多币种资金**：在支付周期之间赚取收益
 - **委托支付审批**：通过 [Manager](managers.md) 为财务团队提供权限
@@ -201,7 +201,7 @@ Underscore 的支付基础设施使其成为下一代支付应用的理想选择
 
 ## 加入革命
 
-准备好开启您的 DeFi 之旅了吗？让我们一起打造金融的未来！
+准备好开启你的 DeFi 之旅了吗？让我们一起打造金融的未来！
 
 ### 联系我们
 
@@ -209,7 +209,7 @@ Underscore 的支付基础设施使其成为下一代支付应用的理想选择
 - **关注更新**：在 Twitter/X [@underscore_hq](https://x.com/underscore_hq) 上了解最新动态
 - **GitHub**：在 [github.com/underscore-finance](https://github.com/underscore-finance/underscore-protocol) 探索代码
 
-无论您是在打造下一个独角兽、优化支付流程，还是创建 AI 驱动的金融工具，我们的社区都在这里陪您一起搞事情。
+无论你是在打造下一个独角兽、优化支付流程，还是创建 AI 驱动的金融工具，我们的社区都在这里陪你一起搞事情。
 
 ---
 
