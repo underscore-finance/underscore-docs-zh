@@ -50,7 +50,7 @@ Underscore 通过名为 “Lego” 的标准化适配器连接 DeFi 协议。每
 
 ### 债务管理
 
-**已集成协议**：[Ripe Protocol](https://ripeprotocol.com)
+**已集成协议**：[Ripe Protocol](https://ripe.finance)
 
 Ripe Protocol 是 Underscore 的借贷合作方，允许你在不卖出资产的前提下获得流动性。关键优势在于：**Underscore Earn Vault 份额可以作为抵押品使用**。这意味着你的资产可以一边在 AI 优化策略中持续赚取收益，一边作为抵押品去借款。你不必在“收益”和“流动性”之间做选择，可以同时获得两者。
 

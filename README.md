@@ -6,7 +6,7 @@ description: 你的资金永不休眠
 
 一个协议，两个产品。
 
-1. **[Earn Vaults](vaults.md)**：跨 10+ 个 DeFi 协议的 AI 管理型被动收益。存入资产，获得 Vault 份额，剩下的交给 AI。
+1. **[Earn Vaults](vaults.md)**：跨 10+ 个 DeFi 协议的 AI 管理被动收益策略。存入资产，获得 Vault 份额，剩下的交给 AI。
 
 2. **[可编程钱包](user-wallet.md)**：让 AI 代理和操作员在你的规则内付款、再平衡和转移资金的代理式钱包。无托管。无私钥。无不受限制的访问权。
 
@@ -116,7 +116,7 @@ Underscore 不是一款面向消费者的应用，而是面向代理、应用和
 ### 基于 Underscore 构建的应用
 
 - **AI 代理与自主系统**：作为[管理员](managers.md)在用户设定限制内运行的收益优化代理、交易机器人和自主经济体，并通过[收款人](payees.md)和[数字支票](cheques.md)支付数据、算力和推理 API
-- **金融科技应用**：比如 [Hightop](https://hightop.com)，它使用 Underscore 提供收益优化、兑换、借贷以及 AI 私人银行家
+- **金融科技应用**：比如 [Hightop](https://hightop.com)，它使用 Underscore 驱动收益优化、兑换、借贷以及 AI 私人银行家
 - **Vault 集成方**：无需自建基础设施，直接集成 [Earn Vaults](vaults.md) 即可增加 AI 管理收益能力
 - **支付平台**：跨境汇款、B2B 付款和薪资系统，可以直接利用我们的[数字支票](cheques.md)和[收款人](payees.md)
 - **钱包提供商**：为现有钱包加入更高级的 DeFi 能力和[可编程委托](managers.md)
@@ -210,7 +210,7 @@ Hightop 展示了基于 Underscore 构建的强大能力：
 - **需要周期性付款**：使用[收款人](payees.md)配置自动转账
 - **需要一次性付款**：使用[数字支票](cheques.md)并保留取消能力
 - **需要多钱包策略**：把地址加入[白名单](whitelist.md)
-- **需要赚取奖励**：了解[奖励和加成](rewards.md)
+- **需要赚取奖励**：了解[收益分享与奖励加成](rewards.md)
 
 ---
 
