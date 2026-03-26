@@ -60,7 +60,7 @@ Vault 业绩费会随着协议 TVL 和收益表现一起增长，因此随着 Un
 
 所有协议收入都会用于从我们的合作协议 [Ripe Protocol](https://ripe.finance) 回购 RIPE 代币。
 
-**链上验证**：当前费用参数与实时合约部署情况可在 [Params Explorer](https://params.underscore.finance/deployments) 中查看。
+**链上验证**：当前费用参数可在 [Params Explorer](https://params.underscore.finance/protocol) 中查看。
 
 ---
 
