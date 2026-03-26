@@ -27,4 +27,5 @@
 
 - [技术文档](https://underscore-1.gitbook.io/developers) — 智能合约指南与集成文档
 - [已部署合约](https://underscore-1.gitbook.io/developers/home/deployments) — Base 上的合约地址
+- [Params Explorer](https://params.underscore.finance) — 实时协议参数与合约地址
 - [GitHub](https://github.com/underscore-finance/underscore-protocol) — 开源代码仓库

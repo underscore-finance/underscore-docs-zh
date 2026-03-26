@@ -386,6 +386,7 @@ Vault 只会对利润收费，绝不会对你的本金收费：
 - **把它当作抵押品**：将份额存入 Ripe Protocol，对你的收益继续借款
 - **随时提取**：需要资金时，随时把份额赎回为底层资产
 - **在 Vaults 之上构建产品**：通过[技术文档](https://underscore-1.gitbook.io/developers)进行集成
+- **查看实时 Vault 配置**：在 [Params Explorer](https://params.underscore.finance/vaults) 中查看当前 Vault 参数与地址
 
 如果你想对 DeFi 策略拥有完整控制权，也可以进一步探索带有自定义管理员、支付自动化等功能的[可编程钱包](user-wallet.md)。
 

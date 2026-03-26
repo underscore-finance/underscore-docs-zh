@@ -41,6 +41,8 @@ description: 通过你的 Underscore 钱包可访问的完整 DeFi 协议列表
 - 只要新的 Lego 部署完成就会自动可用
 - 你现有的全部安全设置仍然生效
 
+**实时数据**：在 [Params Explorer](https://params.underscore.finance/legos) 中查看所有已激活的集成及其链上状态。
+
 ## 协议安全性
 
 所有已集成协议都：

@@ -220,6 +220,8 @@ Hightop 展示了基于 Underscore 构建的强大能力：
 
 你可以基于 Underscore 的基础设施进行开发，其中包含智能合约架构、Lego Partner 集成和安全模型的详细说明。已有 30 多个生产级合约文档和集成示例。
 
+如需查看实时协议参数与合约部署，请访问 [Params Explorer](https://params.underscore.finance)。
+
 ---
 
 ## 社区与支持
