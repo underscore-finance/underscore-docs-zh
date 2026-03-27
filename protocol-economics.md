@@ -4,7 +4,7 @@ description: Underscore 如何产生收入，以及这些收入会流向哪里
 
 # 协议经济模型
 
-Underscore 通过对创造价值的活动收取费用来产生收入。所有协议收入都会被用于从我们的合作协议 [Ripe Protocol](https://ripe.finance) 回购 RIPE 代币。
+Underscore 通过对创造价值的活动收取费用来产生收入。所有协议收入全部用于从合作协议 [Ripe Protocol](https://ripe.finance) 回购 RIPE 代币。
 
 ---
 
@@ -22,7 +22,7 @@ Underscore 通过对创造价值的活动收取费用来产生收入。所有协
 - 20,000 美元 → 协议收入
 - 80,000 美元 → 通过份额价格上升分配给存款人
 
-Vault 业绩费会随着协议 TVL 和收益表现一起增长，因此随着 Underscore 扩大规模，这将成为主要收入驱动。
+Vault 业绩费会随着协议 TVL 和收益表现一起增长，因此随着 Underscore 扩大规模，这将成为最主要的收入来源。
 
 ### 兑换费用
 

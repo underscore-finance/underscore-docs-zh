@@ -70,7 +70,7 @@ RIPE 是 [Ripe Protocol](https://ripe.finance) 的治理代币，而 Ripe Protoc
 
 - **持有**，等待潜在升值
 - **质押** 到 Ripe 治理中，获取投票权和额外奖励
-- **交易** 于支持的交易所
+- 在支持的交易所上**交易**
 
 ### 自动质押
 
