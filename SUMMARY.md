@@ -8,7 +8,7 @@
 
 ## Earn Vaults
 
-- [Earn Vaults](vaults.md) — 由 AI 管理的 ERC-4626 收益策略
+- [Earn Vaults：核心 Vaults 与 Amplified Vaults](vaults.md) — AI 管理收益与由 Ripe 驱动的放大收益
 
 ## 可编程钱包
 

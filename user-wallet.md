@@ -52,28 +52,28 @@ Underscore 通过名为 “Lego” 的标准化适配器连接 DeFi 协议。每
 
 **已集成协议**：[Ripe Protocol](https://ripe.finance)
 
-Ripe Protocol 是 Underscore 的借贷合作方，允许你在不卖出资产的前提下获得流动性。关键优势在于：**Underscore Earn Vault 份额可以作为抵押品使用**。这意味着你的资产可以一边在 AI 优化策略中持续赚取收益，一边作为抵押品去借款。你不必在“收益”和“流动性”之间做选择，可以同时获得两者。
+Ripe Protocol 是 Underscore 的借贷合作方，允许你在不卖出资产的前提下获得流动性。关键优势在于：**Underscore 核心 Vault 份额可以作为抵押品使用**。这意味着你的资产可以一边在 AI 优化策略中持续赚取收益，一边作为抵押品去借款。你不必在“收益”和“流动性”之间做选择，可以同时获得两者。Amplified Vaults 也在 Vault 策略内部沿用同样的模式。
 
 **工作方式**：
 
-1. **存入抵押品**：把资产锁定在 Ripe Protocol 中，其中包括 Underscore Earn Vault 代币
+1. **存入抵押品**：把资产锁定在 Ripe Protocol 中，其中包括 Underscore 核心 Vault 份额
 2. **以抵押品借款**：借出 GREEN（稳定币）或会生息的 sGREEN
-3. **继续赚取收益**：如果你使用的是 Vault 代币作为抵押品，其底层资产仍会继续赚取优化后的收益
+3. **继续赚取收益**：如果你使用的是核心 Vault 份额作为抵押品，其底层资产仍会继续赚取优化后的收益
 4. **随时还款**：按照你的节奏偿还本金和利息
 5. **取回抵押品**：债务清偿后，提回资产
 
 **这为什么重要：**
 
 传统借贷往往迫使你二选一：要么赚收益，要么拿资产做抵押。借助 Underscore + Ripe：
-- 先存入 Earn Vault，让 AI 优化你的收益
-- 把 Vault 代币作为抵押品存入 Ripe
+- 先存入核心 Vault，让 AI 优化你的收益
+- 把核心 Vault 份额作为抵押品存入 Ripe
 - 借出 GREEN/sGREEN 来满足流动性需求
 - 你的抵押品在整个过程中都继续赚取收益
 
 **能力**：
 
 - 把任意支持资产作为抵押品存入
-- 使用 Underscore Earn Vault 代币作为可生息抵押品
+- 使用 Underscore 核心 Vault 份额作为可生息抵押品
 - 借出 GREEN（稳定币）或 sGREEN（生息型稳定币）
 - 用任意接受的代币偿还债务
 - 在债务头寸上赚取并领取 RIPE 奖励

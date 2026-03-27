@@ -6,7 +6,7 @@ description: 你的资金永不休眠
 
 一个协议，两个产品。
 
-1. **[Earn Vaults](vaults.md)**：跨 10+ 个 DeFi 协议的 AI 管理被动收益策略。存入资产，获得 Vault 份额，剩下的交给 AI。
+1. **[Earn Vaults](vaults.md)**：建立在同一套份额架构上的两种收益形态：核心 Vaults 提供被动的 AI 管理收益，Amplified Vaults 借助 Ripe 放大收益。
 
 2. **[可编程钱包](user-wallet.md)**：让 AI 代理和操作员在你的规则内付款、再平衡和转移资金的代理式钱包。无托管。无私钥。无不受限制的访问权。
 
@@ -16,15 +16,20 @@ description: 你的资金永不休眠
 
 ## Earn Vaults
 
-由 AI 管理的收益策略，被封装为标准 ERC-4626 代币。你存入资产，获得 Vault 份额，接下来 AI 会处理一切，包括寻找更优收益、在协议之间再平衡、领取奖励。你只需持有这个代币。
+Underscore Earn Vaults 分为两种形态：
+
+- **核心 Vaults**：封装为标准 ERC-4626 份额的 AI 管理被动收益
+- **Amplified Vaults**：建立在核心 Vault 份额之上，借助 Ripe 增加第二层收益，同时保持美元计价债务安全
+
+存入资产，获得 Earn Vault 份额，让策略在底层自动运行。
 
 - **可组合**：Vault 份额可在整个 DeFi 中使用，可交易、可桥接、可作为抵押品
 - **可生息抵押品**：在 Ripe 上借款时，你的抵押品仍能继续赚取收益
 - **可扩展**：100,000 个用户共享一套策略。AI 只需再平衡一次，所有人都受益
 
-**最适合**：被动收益用户、需要可生息抵押品的协议、想增加收益能力的金融科技应用
+**最适合**：被动收益用户、需要可生息抵押品的协议，以及想加入直接收益或放大收益能力的金融科技应用
 
-**→ 了解更多：[AI 管理型 Vaults](vaults.md)**
+**→ 了解更多：[Earn Vaults：核心 Vaults 与 Amplified Vaults](vaults.md)**
 
 ---
 
@@ -117,7 +122,7 @@ Underscore 不是一款面向消费者的应用，而是面向代理、应用和
 
 - **AI 代理与自主系统**：作为[管理员](managers.md)在用户设定限制内运行的收益优化代理、交易机器人和自主经济体，并通过[收款人](payees.md)和[数字支票](cheques.md)支付数据、算力和推理 API
 - **金融科技应用**：比如 [Hightop](https://hightop.com)，它使用 Underscore 驱动收益优化、兑换、借贷以及 AI 私人银行家
-- **Vault 集成方**：无需自建基础设施，直接集成 [Earn Vaults](vaults.md) 即可增加 AI 管理收益能力
+- **Vault 集成方**：无需自建基础设施，直接集成[核心 Vaults](vaults.md)即可提供被动收益，或围绕 [Amplified Vaults](vaults.md) 提供第二层收益
 - **支付平台**：跨境汇款、B2B 付款和薪资系统，可以直接利用我们的[数字支票](cheques.md)和[收款人](payees.md)
 - **钱包提供商**：为现有钱包加入更高级的 DeFi 能力和[可编程委托](managers.md)
 
@@ -150,7 +155,7 @@ Hightop 展示了基于 Underscore 构建的强大能力：
 目前仅支持 Base L2。更多链后续会加入。
 
 **费用怎么收？**
-兑换收取 0.25%，外部奖励领取收取 20%。Vault 仅对收益利润收取 20% 的业绩费。转账、存款和闲置资金不收费。更多细节见 [协议经济模型](protocol-economics.md)。
+兑换收取 0.25%，外部奖励领取收取 20%。Earn Vaults 仅对收益利润收取 20% 的业绩费。转账、存款和闲置资金不收费。更多细节见 [协议经济模型](protocol-economics.md)。
 
 **如果我丢了 owner 钱包怎么办？**
 如果你事先已经设置好管理员和白名单地址，管理员仍然可以把资金转到你的白名单地址（例如硬件钱包），为你提供恢复路径。
@@ -184,7 +189,7 @@ Hightop 展示了基于 Underscore 构建的强大能力：
 
 **想要被动收益？（2 分钟）**
 1. 将你的钱包连接到 Underscore
-2. 选择一个 Vault（USDC、ETH 等）
+2. 选择一个收益形态：核心 Vaults 用于被动收益，Amplified Vaults 用于收益放大
 3. 存入资产，接下来交给 AI
 
 **想构建 AI 代理？（10 分钟）**
@@ -200,7 +205,9 @@ Hightop 展示了基于 Underscore 构建的强大能力：
 
 ### 探索功能
 
-**如果你想要被动收益**：从 [Earn Vaults](vaults.md) 开始，存入资产，让 AI 自动优化。无需先部署钱包。
+**如果你想要被动收益**：从[核心 Vaults](vaults.md)开始，存入资产，让 AI 自动优化。无需先部署钱包。
+
+**如果你想要放大收益**：探索 [Amplified Vaults](vaults.md)，在保持 BTC 或 USDC 敞口的同时，借助 Ripe 增加第二层收益。
 
 **如果你在构建 AI 代理**：部署一个[可编程钱包](user-wallet.md)，然后配置[管理员](managers.md)负责执行、[收款人](payees.md)负责周期性成本、[数字支票](cheques.md)负责一次性支出。
 

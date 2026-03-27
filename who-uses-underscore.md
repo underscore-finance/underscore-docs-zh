@@ -8,7 +8,7 @@ Underscore 是面向代理、应用与协议的基础设施。有些用户通过
 
 你可以把 Underscore 理解成 DeFi 世界里的 AWS，但它完全非托管。就像数百万人在使用 Netflix 时不会意识到 Amazon 的服务器一样，未来也会有数百万人使用由 Underscore 基础设施驱动的金融应用。关键区别在于：用户始终保有对自己资金的控制权。复杂度被藏在底层，用户享受的是顺滑体验。
 
-Underscore 提供两类核心产品：任何人都能使用的 **[Earn Vaults](vaults.md)**，用于获取 AI 管理的收益；以及 **[可编程钱包](user-wallet.md)**，配合[管理员](managers.md)、[收款人](payees.md)、[数字支票](cheques.md)和[白名单](whitelist.md)，让 AI 代理和操作员在链上规则内使用真实资金执行操作。
+Underscore 提供两类核心产品：任何人都能使用的 **[Earn Vaults](vaults.md)**，其中包括核心 Vaults 和 Amplified Vaults；以及 **[可编程钱包](user-wallet.md)**，配合[管理员](managers.md)、[收款人](payees.md)、[数字支票](cheques.md)和[白名单](whitelist.md)，让 AI 代理和操作员在链上规则内使用真实资金执行操作。
 
 ## Underscore 生态系统
 
@@ -19,7 +19,7 @@ Underscore 提供两类核心产品：任何人都能使用的 **[Earn Vaults](v
 - 需要 DeFi 收益能力的面向消费者应用
 - 提供加密服务的新型银行
 - 需要自动化资金流的支付处理平台
-- 希望通过 [Vaults](vaults.md) 快速加入 AI 管理收益功能的应用
+- 希望通过 [Earn Vaults](vaults.md) 快速加入收益功能的应用，无论是核心 Vaults 的被动收益，还是 Amplified Vaults 的第二层收益
 
 **加密钱包**
 
@@ -47,12 +47,12 @@ Underscore 让代理能够动用真实资金执行操作，而无需托管权、
 
 用户在友好的应用界面中交互，而 Underscore 处理所有复杂度：
 
-- **赚取收益**：“存入 USDC，赚 8% 年化” → [Earn Vaults](vaults.md) 自动路由至最优协议
+- **赚取收益**：“存入 USDC，赚 8% 年化” → [核心 Vaults](vaults.md) 自动路由至最优协议
 - **发起付款**：“给承包商转 500 美元” → Underscore 的[支票系统](cheques.md)负责安全控制
 - **投资组合管理**：“让 AI 帮我优化收益” → Underscore 的[管理员](managers.md)负责执行策略
 - **资产兑换**：“把 ETH 换成 USDC” → Underscore 在各个 DEX 之间寻找最佳价格
 - **借款**：“用我的 ETH 作为抵押借钱” → Underscore 的 Ripe Protocol Lego 安全管理抵押品
-- **可生息抵押品**：“把我的收益份额拿去做抵押” → [Earn Vault](vaults.md) 份额可在 Ripe 上继续生息
+- **可生息抵押品**：“把我的收益份额拿去做抵押” → [核心 Vault 份额](vaults.md) 可在 Ripe 上继续生息
 
 用户看到的是简单界面。Underscore 负责繁重的底层工作。
 
@@ -167,9 +167,11 @@ Underscore 让代理能够动用真实资金执行操作，而无需托管权、
 
 ### 为什么集成 Vaults
 
+Underscore Earn Vaults 共享同一套架构，但有两种收益形态：核心 Vaults 提供直接的 AI 管理收益，Amplified Vaults 通过 Ripe 叠加第二层收益。
+
 **对金融科技应用来说**
 
-跳过数月的基础设施开发，直接集成 [Vaults](vaults.md)：
+跳过数月的基础设施开发，直接集成 [核心 Vaults](vaults.md)，或围绕 [Amplified Vaults](vaults.md) 构建第二层收益能力：
 
 - 标准 ERC4626 接口，集成工作量极低
 - AI 优化完全由 Underscore 负责
@@ -180,7 +182,7 @@ Underscore 让代理能够动用真实资金执行操作，而无需托管权、
 
 让抵押品变得可生息：
 
-- 接受 Vault 份额作为抵押品
+- 接受核心 Vault 份额作为抵押品
 - 用户借款的同时继续赚取收益
 - 标准 ERC20 兼容性
 - Vault 价值可在链上追踪
@@ -189,8 +191,8 @@ Underscore 让代理能够动用真实资金执行操作，而无需托管权、
 
 无需自建基础设施，也能提供托管式策略：
 
-- 通过 Earn Vaults 提供直接的收益优化
-- 通过杠杆 Vaults 提供有风险控制的放大收益
+- 通过核心 Vaults 提供直接的收益优化
+- 通过 Amplified Vaults 提供有风险控制的放大收益
 - 可以白标为你自己的产品
 - 把精力放在获客，而不是基础设施
 

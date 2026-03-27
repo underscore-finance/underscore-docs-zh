@@ -12,7 +12,7 @@ Underscore 通过对创造价值的活动收取费用来产生收入。所有协
 
 ### Vault 业绩费（主要来源）
 
-协议收入的最大来源是 [Vaults](vaults.md) 这一类 AI 管理的收益策略，它们会在多个 DeFi 协议之间优化回报。
+协议收入的最大来源是 [Underscore Earn Vaults](vaults.md)。其中包括核心 Vaults 和 Amplified Vaults。
 
 - **费率**：收益利润的 20%
 - **适用对象**：仅针对利润，绝不针对本金
