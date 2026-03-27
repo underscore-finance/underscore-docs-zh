@@ -66,7 +66,7 @@ description: 通过收益加成和存款奖励赚取 RIPE 代币
 
 ## RIPE 代币详情
 
-RIPE 是 [Ripe Protocol](https://ripe.finance) 的治理代币，也是 Underscore 集成的借贷协议。你的 RIPE 可以：
+RIPE 是 [Ripe Protocol](https://ripe.finance) 的治理代币，而 Ripe Protocol 则是 Underscore 集成的借贷协议。你的 RIPE 可以：
 
 - **持有**，等待潜在升值
 - **质押** 到 Ripe 治理中，获取投票权和额外奖励
