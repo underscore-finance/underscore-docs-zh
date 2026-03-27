@@ -121,7 +121,7 @@ Underscore 不是一款面向消费者的应用，而是面向代理、应用和
 ### 基于 Underscore 构建的应用
 
 - **AI 代理与自主系统**：作为[管理员](managers.md)在用户设定限制内运行的收益优化代理、交易机器人和自主经济体，并通过[收款人](payees.md)和[数字支票](cheques.md)支付数据、算力和推理 API
-- **金融科技应用**：比如 [Hightop](https://hightop.com)，它把面向 AI 代理的数字银行体验做得足够简单，供人类直接使用，而 Underscore 负责背后的链上控制，让用户在保持控制权的同时让 AI 代理付款、收款、让闲置资金生息并转移资金
+- **金融科技应用**：比如 [Hightop](https://hightop.com)，它利用 Underscore 提供“面向 AI 代理的数字银行，对人类却足够简单”的体验，让代理在用户保持控制权的同时付款、收款、让闲置资金生息并转移资金
 - **Vault 集成方**：无需自建基础设施，直接集成[核心 Vaults](vaults.md)即可提供被动收益，或围绕 [Amplified Vaults](vaults.md) 提供第二层收益
 - **支付平台**：跨境汇款、B2B 付款和薪资系统，可以直接利用我们的[数字支票](cheques.md)和[收款人](payees.md)
 - **钱包提供商**：为现有钱包加入更高级的 DeFi 能力和[可编程委托](managers.md)
@@ -130,9 +130,10 @@ Underscore 不是一款面向消费者的应用，而是面向代理、应用和
 
 Hightop 展示了基于 Underscore 构建的强大能力：
 - **面向 AI 代理的数字银行，对人类来说却很简单**：Hightop 为代理资金提供干净的产品体验，而底层的可编程控制层由 Underscore 提供
-- **让 AI 代理付款并收款，同时控制权始终在用户手中**：Hightop 将 AI 代理执行映射到[管理员](managers.md)，将周期性对手方映射到[收款人](payees.md)，将一次性付款映射到[数字支票](cheques.md)，将可信出金路径映射到[白名单](whitelist.md)
+- **让代理付款并收款，同时控制权始终在用户手中**：Hightop 将代理执行映射到[管理员](managers.md)，将周期性对手方映射到[收款人](payees.md)，将一次性付款映射到[数字支票](cheques.md)，将可信出金路径映射到[白名单](whitelist.md)
 - **钱包、Gas 和资金流转都在后台处理**：Hightop 抽象掉[可编程钱包](user-wallet.md)基础设施、Gas 和资金流转，而 Underscore 在链上强制执行限额、权限和支付规则
-- **Hightop 的 Earn 体验同时使用核心 Vaults 和 Amplified Vaults**：[核心 Vaults](vaults.md)、[Amplified Vaults](vaults.md)和 Underscore Lego 处理收益、兑换和投资组合操作，而 Ripe 负责借贷层以及 Amplified Vault 背后的杠杆轨道
+- **Earn Autopilot 与投资组合执行运行在 Underscore 之上**：[核心 Vaults](vaults.md)、[Amplified Vaults](vaults.md)和 Underscore Lego 负责收益、兑换以及在 25+ 种支持资产上的策略感知型资产执行，而 Ripe 负责借贷层以及 Amplified Vault 背后的杠杆轨道
+- **x402-ready 流程已经可用，卡片即将推出**：Hightop 已经支持面向代理的 API 原生入账支付，并正在把同一套控制模型扩展到虚拟卡
 
 大多数用户永远不会直接接触 Underscore。他们会通过像 Hightop 这样的应用，享受由 Underscore 基础设施支撑的无缝体验。
 
