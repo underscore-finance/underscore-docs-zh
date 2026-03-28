@@ -4,7 +4,7 @@ description: Underscore 如何产生收入，以及这些收入会流向哪里
 
 # 协议经济模型
 
-Underscore 通过对创造价值的活动收取费用来产生收入。所有协议收入全部用于从合作协议 [Ripe Protocol](https://ripe.finance) 回购 RIPE 代币。
+Underscore 通过对创造价值的活动收取费用来产生收入。其中大部分来自对 Vault 利润收取的 20% 业绩费，因此 Vault 用户赚钱时，协议才赚钱。100% 的协议收入都用于在公开市场回购 [$RIPE](https://app.ripe.finance/ripe)。
 
 ---
 
@@ -56,9 +56,11 @@ Vault 业绩费会随着协议 TVL 和收益表现一起增长，因此随着 Un
 
 ---
 
-## 收入分配：回购 RIPE
+## 收入分配：回购 $RIPE
 
-所有协议收入都会用于从我们的合作协议 [Ripe Protocol](https://ripe.finance) 回购 RIPE 代币。
+100% 的协议收入都用于在公开市场回购 [$RIPE](https://app.ripe.finance/ripe)。
+
+随着 Underscore 使用量增长，回购需求也会随之扩大，并回流到整个生态。
 
 **链上验证**：当前费用参数可在 [Params Explorer](https://params.underscore.finance/protocol) 中查看。
 
@@ -72,4 +74,4 @@ Vault 业绩费会随着协议 TVL 和收益表现一起增长，因此随着 Un
 | 兑换费用 | 金额的 0.25% | 中等 |
 | 外部奖励 | 领取金额的 20% | 较小 |
 
-**100% 的收入 → 回购 RIPE**
+**100% 的收入 → 在公开市场回购 [$RIPE](https://app.ripe.finance/ripe)**

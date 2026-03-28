@@ -10,6 +10,14 @@ Underscore 是面向代理、应用与协议的基础设施。有些用户通过
 
 Underscore 提供两类核心产品：任何人都能使用的 **[Earn Vaults](vaults.md)**，其中包括核心 Vaults 和 Amplified Vaults；以及 **[可编程钱包](user-wallet.md)**，配合[管理员](managers.md)、[收款人](payees.md)、[数字支票](cheques.md)和[白名单](whitelist.md)，让 AI 代理和操作员在链上规则内使用真实资金执行操作。
 
+## 激励一致的经济模型
+
+- 协议在用户赚钱时才赚钱：Underscore 的大部分收入来自仅针对 Vault 利润收取的 20% 业绩费
+- 额外的小额收入来自兑换费用和外部奖励领取费用
+- 存款、转账、闲置资金和本金不收费
+- 100% 的协议收入都用于在公开市场回购 [$RIPE](https://app.ripe.finance/ripe)
+- 费用细节、示例和链上验证可查看 [协议经济模型](protocol-economics.md)
+
 ## Underscore 生态系统
 
 ### 谁在 Underscore 上构建
