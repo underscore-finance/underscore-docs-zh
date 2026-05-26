@@ -234,7 +234,7 @@ Hightop 展示了基于 Underscore 构建的强大能力：
 
 ## 社区与支持
 
-- **Discord**：[discord.gg/underscore](https://discord.gg/Y6PWmndNaC)
+- **Discord**：[discord.gg/hightop](https://discord.gg/hightop)
 - **Twitter/X**：[@underscore_hq](https://x.com/underscore_hq)
 - **GitHub**：[github.com/underscore-finance](https://github.com/underscore-finance/underscore-protocol)
 

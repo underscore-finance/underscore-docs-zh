@@ -311,7 +311,7 @@ Underscore 的支付基础设施使其非常适合下一代支付产品：
 
 ### 联系我们
 
-- **Discord 社区**：加入我们的开发者讨论 [discord.gg/Y6PWmndNaC](https://discord.gg/Y6PWmndNaC)
+- **Discord 社区**：加入我们的开发者讨论 [discord.gg/hightop](https://discord.gg/hightop)
 - **关注动态**：在 Twitter/X 上关注 [@underscore_hq](https://x.com/underscore_hq)
 - **GitHub**：在 [github.com/underscore-finance](https://github.com/underscore-finance/underscore-protocol) 查看代码
 
